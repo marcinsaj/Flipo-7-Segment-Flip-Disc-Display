@@ -1,14 +1,4 @@
 // Flipo Project - https://Flipo.io
-// https://flipo.io/project/pulse-current-power-supply/
-// https://github.com/marcinsaj/Flipo-Pulse-Current-Power-Supply
-//
-// Basic example of Flipo#3 module control - flip on/off 3 discs
-//
-// Hardware:
-// Pulse Current Power Supply Module for flip discs - https://flipo.io/project/pulse-current-power-supply/
-// Flipo#3 Module for 3 flip discs - https://flipo.io/project/controller-flip-disc-3/
-// Arduino UNO
-
 
 // Declaration of the controller control inputs
 #define DIN_PIN     12    // 
