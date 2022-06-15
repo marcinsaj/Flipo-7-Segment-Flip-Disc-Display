@@ -105,6 +105,8 @@ uint8_t resetDiscDot[2] =
 
 void setup() 
 {
+Serial.begin(115200);
+delay(3000);
   pinMode(DIN_PIN, OUTPUT);
   digitalWrite(DIN_PIN, LOW);
  
@@ -119,8 +121,7 @@ void setup()
 
   ShiftOutDataX(0);            // Clear Flipo #3 Controller
 
-//Serial.begin(115200);
-//delay(3000);
+
 
   PrepareCurrentPulse();      // Prepare current pulse
 
@@ -173,8 +174,8 @@ void CurrentPulse()
 {
   digitalWrite(EN_VF, HIGH);            // Turn ON PCPS module- charging begin
 
-  do {value = analogRead(FB_VF);}       // Measure the voltage of the accumulated charge
-  while (value < 650);                  // ~2.5V this voltage means that the current pulse is ready
+  do {value = analogRead(FB_VF); Serial.println(value);}       // Measure the voltage of the accumulated charge
+  while (value < 600);                  // ~2.5V this voltage means that the current pulse is ready
  
   digitalWrite(EN_VF, LOW);             // Turn ON PCPS module- charging complete 
 }
@@ -183,7 +184,7 @@ void SetDisc(uint8_t discNumber)
 {
   CurrentPulse();                       // Prepare current pulse - charging begin
   ShiftOutData(discNumber);    // Turn on flip-disc controller corrsponding outputs
-  delayMicroseconds(1500);                             // Flip-disc required 1ms current pulse to flip
+  delayMicroseconds(1000);                             // Flip-disc required 1ms current pulse to flip
 
   ShiftOutDataX(0);                      // Absolutely required!
                                         // This function here turns off the current pulse 
@@ -194,7 +195,7 @@ void ResetDisc(uint8_t discNumber)
 {
   CurrentPulse();                       // Prepare current pulse - charging begin
   ShiftOutData2(discNumber);    // Turn on flip-disc controller corrsponding outputs
-  delayMicroseconds(1500);                             // Flip-disc required 1ms current pulse to flip
+  delayMicroseconds(1000);                             // Flip-disc required 1ms current pulse to flip
 
   ShiftOutDataX(0);                      // Absolutely required!
                                         // This function here turns off the current pulse 
