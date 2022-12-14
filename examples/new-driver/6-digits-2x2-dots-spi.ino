@@ -143,7 +143,18 @@ void loop()
 
 for(int i = 0; i < 10; i++)
 {
-FlipDiscDisplay(i,i,i,i,i,i);
+  int a = i + 1;
+  int b = i + 2;
+  int c = i + 3;
+  int d = i + 4;
+  int e = i + 5;
+  
+  if(a > 9) a = 0;
+  if(b > 9) b = 0;
+  if(c > 9) c = 0;
+  if(d > 9) d = 0;
+  if(e > 9) e = 0;
+FlipDiscDisplay(i,a,b,c,d,e);
 delay(1000);  
 }
     
