@@ -155,7 +155,10 @@ for(int i = 0; i < 10; i++)
   if(d > 9) d = 0;
   if(e > 9) e = 0;
 FlipDiscDisplay(i,a,b,c,d,e);
-delay(1000);  
+  FlipDiscDot1(0,0);
+  delay(500);
+    FlipDiscDot2(1,1);
+delay(500);  
 }
     
 
