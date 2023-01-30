@@ -12,10 +12,4 @@
  - [Connection diagram]()
  - [Connection diagram]()
  
-<a href="https://flipo.io/project/flip-disc-7-segment-display/"><img src="https://github.com/marcinsaj/Flipo-7-Segment-Flip-Disc-Display/blob/main/extras/flip-disc-7-segment-display-cover-github.jpg""></a> 
-
-<p align="center"><img src="https://github.com/marcinsaj/Flipo-7-Segment-Flip-Disc-Display/blob/main/datasheet/flip-disc-7-segment-display-pinout-01.png"></p>
-<p align="center"><img src="https://github.com/marcinsaj/Flipo-7-Segment-Flip-Disc-Display/blob/main/datasheet/flip-disc-7-segment-display-pinout-02.png"></p>
-<p align="center"><img src="https://github.com/marcinsaj/Flipo-7-Segment-Flip-Disc-Display/blob/main/datasheet/flip-disc-7-segment-display-pinout-description-01.png"></p>
-<p align="center"><img src="https://github.com/marcinsaj/Flipo-7-Segment-Flip-Disc-Display/blob/main/datasheet/flip-disc-7-segment-display-dimensions-01.png"></p>
-<p align="center"><img src="https://github.com/marcinsaj/Flipo-7-Segment-Flip-Disc-Display/blob/main/datasheet/flip-disc-7-segment-display-dimensions-02.png"></p>
+<a href="https://flipo.io/project/flip-disc-7-segment-display/"><img src="https://github.com/marcinsaj/Flipo-7-Segment-Flip-Disc-Display/blob/main/extras/flip-disc-7-segment-display-cover-github.jpg"></a>
