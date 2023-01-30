@@ -11,7 +11,9 @@
  - [Display dimensions](https://github.com/marcinsaj/Flipo-7-Segment-Flip-Disc-Display/raw/main/datasheet/Flip-disc-7-Segment-Display-Dimensions.pdf)
  - [Connection diagram - Dedicated Controller](https://github.com/marcinsaj/Flipo-7-Segment-Flip-Disc-Display/blob/main/datasheet/7-Segment-Flip-disc-Display-Controller-Connection-Schematic.pdf)
  - [Connection diagram - Arduino Uno & PSPS module](https://github.com/marcinsaj/Flipo-7-Segment-Flip-Disc-Display/raw/main/datasheet/7-Segment-Flip-disc-Display-Arduino-Example-Connection-Schematic.pdf)
- 
+
+-------------------------------------------------------------------   
+
 ### ✔️ Examples - Code & Diagrams
 
 The diagrams below include the Arduino UNO as a reference. You can use any Arduino board to control the displays. ⚠️ Remember that for proper operation, each of the display connection configurations and the library itself requires the connection of the [Pulse Shaper Power Supply](https://flipo.io/project/flip-disc-power-supply/) module.  
