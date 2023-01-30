@@ -59,5 +59,7 @@ In summary, there are two options:
 <p><img src="https://github.com/marcinsaj/FlipDisc/blob/main/extras/arduino-6x7-seg-flip-disc-psps-module.png"></p>    
 
 5️⃣ [Show me code](https://github.com/marcinsaj/FlipDisc/blob/main/examples/05-6x7-seg-flip-disc-arduino-psps.ino) &nbsp; [Download diagram](https://github.com/marcinsaj/FlipDisc/raw/main/datasheet/Flip-disc-7-Segment-Display-Arduino-Example-Connection-with-Pulse-Shaper-Schematic-05.pdf) :small_red_triangle_down:
- 
+
+------------------------------------------------------------------- 
+
 <a href="https://flipo.io/project/flip-disc-7-segment-display/"><img src="https://github.com/marcinsaj/Flipo-7-Segment-Flip-Disc-Display/blob/main/extras/flip-disc-7-segment-display-cover-github.jpg"></a>
