@@ -12,10 +12,7 @@
  - [Connection diagram]()
  - [Connection diagram]()
  
- ## ![](https://github.com/marcinsaj/FlipDisc/blob/main/extras/ok.png) Examples - Code & Diagrams
-
-Several example sketches are included with the **FlipDisc** library.  
-In order to better understand the code, a visualization of connecting individual modules has been attached to each program code.  
+### ✔️ Examples - Code & Diagrams
 
 All diagrams below include the Arduino UNO as a reference. You can use any Arduino board to control the displays. ⚠️ Remember that for proper operation, each of the display connection configurations and the library itself requires the connection of the [Pulse Shaper Power Supply](https://flipo.io/project/flip-disc-power-supply/) module.  
   
