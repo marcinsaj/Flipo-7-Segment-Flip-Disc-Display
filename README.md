@@ -9,8 +9,8 @@
  - [Flip-disc specification](https://github.com/marcinsaj/Flipo-Flip-disc-Display-Specification/raw/main/datasheet/Flipo-Flip-Disc-Specification.pdf)
  - [Display pinout](https://github.com/marcinsaj/Flipo-7-Segment-Flip-Disc-Display/raw/main/datasheet/Flip-disc-7-Segment-Display-Pinout.pdf)
  - [Display dimensions](https://github.com/marcinsaj/Flipo-7-Segment-Flip-Disc-Display/raw/main/datasheet/Flip-disc-7-Segment-Display-Dimensions.pdf)
- - [Connection diagram]()
- - [Connection diagram]()
+ - [Connection diagram - Dedicated Controller](https://github.com/marcinsaj/Flipo-7-Segment-Flip-Disc-Display/blob/main/datasheet/7-Segment-Flip-disc-Display-Controller-Connection-Schematic.pdf)
+ - [Connection diagram - Arduino Uno & PSPS module](https://github.com/marcinsaj/Flipo-7-Segment-Flip-Disc-Display/raw/main/datasheet/7-Segment-Flip-disc-Display-Arduino-Example-Connection-Schematic.pdf)
  
 ### ✔️ Examples - Code & Diagrams
 
