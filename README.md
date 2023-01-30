@@ -1,8 +1,4 @@
 ## Flipo-7-Segment-Flip-Disc-Display
- 
-
-
-## Flipo-3x1-Flip-Disc-Display
 
 <a href="https://www.buymeacoffee.com/marcinsaj"><img src="https://github.com/marcinsaj/marcinsaj/blob/main/Buy-me-a-coffee.png" /></a> 
 </br>
